@@ -1,0 +1,51 @@
+用户接口：
+接口url:  http://192.168.43.182:89/api/users+接口名称
+1.用户列表： 
+getuserlist :  get
+参数：无参
+返回值：json对象
+
+2.添加用户：
+adduser: post, 
+参数：用户对象；
+返回值： bool
+
+3.删除用户：
+deleteuser: get
+参数：用户id
+返回值：bool
+
+4.修改用户信息
+updateuser ：post
+参数：用户对象
+返回值：bool
+
+5.用户登陆
+userlogin: post
+参数：用户对象
+返回值：string
+
+6.用户注册：
+register： post
+参数：用户对象
+返回值： string
+
+7.查询用户信息：
+selectuserlist: get
+参数：username(用户名或手机号码)
+返回值： json对象
+
+8. 修改密码
+updatepwd: post
+参数：oldpwd,newpwd,tel
+返回值：string
+
+9.上传头像：
+updateuserimg ：post
+参数：Image  tel
+返回值：string
+
+
+
+
+
